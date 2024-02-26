@@ -28,7 +28,7 @@ public class Controller {
     @GetMapping(
             path = {"/get"}
     )
-    public Collection<Integer> get() {
+    public Collection<Integer> getAllNumbers() {
         return this.servis.get();
     }
 }
