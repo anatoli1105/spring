@@ -12,7 +12,7 @@ import java.util.List;
 @Component
 @SessionScope
 public class Basket {
-    List<Integer> numberProduct = new ArrayList();
+    private final List<Integer> numberProduct = new ArrayList();
 
 
 
